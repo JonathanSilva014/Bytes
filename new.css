@@ -1,0 +1,54 @@
+body {
+    background-image: url("./ChatGPT Image 14_09_2026, 10_37_34.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 400px;
+    text-decoration: underline;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.search{
+    text-align: center;
+    display: block;
+}
+input[type="text"] {
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+input[type="submit"] {
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
