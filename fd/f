@@ -1,0 +1,12 @@
+<div class="card">  
+    <img src="product.jpg" width="140">  
+    <div class="info">    
+        <h3>Product title</h3>   
+         <p>Short product description.</p>    
+         <button>Buy</button>  
+        </div> 
+    </div>
+.card {  
+    display: flex;  
+    align-items: center;  
+    gap: 20px; }
