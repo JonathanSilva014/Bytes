@@ -5,5 +5,4 @@ const product = {
 };
 
 const jsonText = JSON.stringify(product);
-
 console.log(jsonText);
