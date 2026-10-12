@@ -43,9 +43,13 @@ const pessoa: Pessoa[] = [
 ];
 
 function calcularTotal(vendas: Venda): number {
-   return vendas.preco * vendas.quantidade;
-   
+   let resultado = vendas.preco * vendas.quantidade;
+
+    console.log(resultado);
+
+    return resultado;
 }
+    calcularTotal(pessoa[0].vendas[0]);
 
 function pessoasDisponiveis() {
     console.log(1, pessoa[0].nome);
@@ -57,17 +61,20 @@ function pessoasDisponiveis() {
 
 
 function obterValoresDasVendas(vendas: Venda[]): number[] {
-    
+    const valores: number[] = vendas.map(venda => venda.preco * venda.quantidade);
+    return valores;
 }
 
-function calcularFaturacaoTotal(vendas: Venda[]): number {
-    
+console.log(obterValoresDasVendas(pessoa[1].vendas));
+
+function calcularFaturacaoTotal(vendas: Venda[]): number{
+    return(0);
 }
 
-function analisarMetodosDePagamentos(vendas: Venda[]): {
+function analisarMetodosDePagamentos(vendas: Venda[]): void{
     
 }
 
 function mostrarVendas(vendas: Venda[]): void {
-
+    
 }
