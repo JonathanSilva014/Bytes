@@ -20,7 +20,7 @@ const today: Date = new Date(Date.UTC(2026, 6, 8));
 const deadline: Date = new Date(Date.UTC(2026, 6, 15));
 
 console.log(Math.floor((deadline.getTime() - today.getTime()) / msPerDay))
-console.log(deadline.getTime() > today())
+console.log(deadline.getTime() > today.getTime())
 
 const extended = new Date(deadline.getTime())
 extended.setUTCDate(extended.getUTCDate() + 7)
