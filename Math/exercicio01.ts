@@ -9,12 +9,12 @@
 // 5. Chama roundPrice(19.6) e confirmar que dá 20.
 
 
-const roundPrice = (price: number): number => {
+const roundPrice = (price: number): number =>{
     return Math.round(price);
 };
 
-console.log(Math.round(14.6));
-console.log(Math.floor(4.9));
-console.log(Math.ceil(4.1));
+console.log(Math.round(14.6)); //ARRENDODAR
+console.log(Math.floor(4.9)); // IGNORA DEPOIS DO PONTO
+console.log(Math.ceil(4.1)); // ARREDONDA PARA CIMA, IGNORA DEPOIS DO PONTO
 console.log(Math.round(-4.5));
 console.log(roundPrice(19.6));
