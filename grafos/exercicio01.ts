@@ -9,3 +9,5 @@ function vizinhos(graph: Graph, no: string): string[] {
 const grafo: Graph = {A: ["B", "C"], B: ["A", "D"], C: ["A"], D: ["B"]}
 
 console.log(vizinhos(grafo, "A")) // => ["B", "C"]
+
+export {}
